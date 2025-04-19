@@ -1,0 +1,43 @@
+h1, h2, h3 {
+  font-family: "Park Lane NF";
+  text-align: center;
+  color: goldenrod;
+}
+
+header {
+  background-color: #0b2838;
+}
+
+body {
+  border: 60px solid transparent;
+  color: goldenrod;
+  background-color: #031b28;
+  border-image: url("https://i.pinimg.com/originals/8b/b6/2c/8bb62c8926f33baf4ded182cd87b12a2.png") 2000 round;
+}
+
+nav {
+  background-color: #0b2838;
+  font-variant: small-caps;
+  font-size: 18pt;
+  color: goldenrod;
+  border: pink solid 5px;
+}
+
+nav ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  border: green solid 5px;
+}
+
+nav ul li a {
+  display: block;
+}
+
+.dropdown {
+  display: none; /* Ensure dropdowns are hidden */
+}
+
+.dropdown-content {
+  display: none; /* Ensure dropdown content is hidden */
+}

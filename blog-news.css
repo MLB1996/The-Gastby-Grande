@@ -1,0 +1,21 @@
+#events-container{display:grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 5px;
+  box-sizing: border-box;
+  }
+  .events-item{border:1px solid black;
+  }
+  #news-container{display:grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 5px;
+  box-sizing: border-box;
+  }
+  .news-item{border:1px solid black;
+  }
+    #exclusive-offer-container{display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 5px;
+    box-sizing: border-box;
+    }
+    .exclusive-offer-item{border:1px solid black;
+    }

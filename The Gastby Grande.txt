@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>The Gatsby Grande | Home |</title>
+<script src="https://kit.fontawesome.com/yourcode.js" crossorigin="anonymous"></script>
+<link rel="stylesheet" href="stylesheet1.css">
+</head>
+<body>
+    <div class="container-fluid">
+        <nav class="navbar jumbotron  fixed-top">
+                <img src="logo.png" width="150" alt="The Gatsby Grande" id="logo">
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto nav-pills nav-justified" role="tablist">
+                    <li class="nav-item ms-auto">
+                        <a class="nav-link active" href="home.html" id="home-link">Home</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="about-us.html" id="about-us" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            About Us
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="about-us">
+                            <li><a class="dropdown-item" href="about-us.html#location" id="location">Location</a></li>
+                            <li><a class="dropdown-item" href="about-us.html#reviews" id="reviews">Reviews</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="accommodation.html" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Accommodation
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="facilities.html">Facilities</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="blog-news.html">Blogs/News</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="booking.html" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Booking
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="booking.html">Book Now</a></li>
+                            <li><a class="dropdown-item" href="booking.html#policies">Policies</a></li>
+                            <li><a class="dropdown-item" href="promotions-packages.html">Packages</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact-us.html">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+    <style>
+        .dropdown:hover .dropdown-menu {
+            display: block;
+            margin-top: 0;
+        }
+    </style>
+
+<section id="home">
+<h1> Welcome to The Gatsby Grande</h1>
+<p>
+    <b>Immerse Yourself in Elegance</b>
+    <img class="img-responsive" src="output.jpg" width="800" alt="The Gatsby Grande" id="the-gatsby-grande">
+</p>
+<p>Experience a seductive blend of modern art deco and the timeless charm of the Jazz Age at The Gatsby Grande, where every corner radiates luxury and inspiration. 
+    With high-quality images of our lavish interiors, our homepage invites you into a world where history and contemporary artistry coexist beautifully.</p>
+</section>
+<section id="contact-us">
+<footer>
+<h2>Contact Information</h2>
+<p>Address:</p> <address>123 Art Deco Way  New York, NY 10001</address>
+<div id="contact-information">
+<p>Phone:  (123) 456-7890</p>
+<p>Email:  info@gatsbygrande.com</p>
+<p>Website: www.gatsbygrande.com</p>
+</div>
+</footer>
+</section>
+    </div>
+</body>
+</html>

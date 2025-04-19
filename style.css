@@ -1,0 +1,104 @@
+
+  body {
+    border: 60px solid transparent;
+    color: goldenrod!important;
+    background-color: #031b28;
+    border-image: url("https://i.pinimg.com/originals/8b/b6/2c/8bb62c8926f33baf4ded182cd87b12a2.png") 2000 round !important;
+  }
+            nav {
+                background-color: #0b2838 !important;
+                color: goldenrod !important;
+            }
+            nav ul{
+                height:15px;
+            }
+            nav ul li {
+                background-color: #0b2838;
+            }
+            
+            .dropdown {
+                background-color: #0b2838;
+                color: goldenrod;
+            }
+            
+            /* Custom hover dropdown styles */
+            .dropdown:hover > .dropdown-menu {
+                display: block;
+                background-color: #0b2838;
+                color: goldenrod;
+            }
+            
+            .dropdown-menu {
+                margin-top: 0; /* Remove default spacing */
+            }
+            
+            .homepage-container {
+                margin-top: 100px;
+            }
+            
+            .logo-img {
+                max-width: 120px;
+            }
+            .nav-link{
+                color: goldenrod;
+                font-size: 15pt;
+            }
+            .dropdown-item{
+                color: goldenrod;
+                text-decoration: none; /* Remove underline from links */
+                transition: color 0.3s ease-in-out; /* Smooth color transition */
+            }
+            nav a.nav-link:hover {
+                background-color: #ffd700; /* Highlight effect on hover */
+                    color: #0b2838 !important; /* Invert colors for readability */
+                }
+                .dropdown-item:hover {
+                    background-color: #ffd700; /* Highlight effect on hover */
+                    color: #0b2838 !important; /* Invert colors for readability */
+                }
+.navbar {
+    padding: 10px 0;
+    margin: 0;
+}
+.navbar-nav {
+    margin: 0 auto; /* Center navigation links */
+}
+.navbar-toggler {
+    background-color: goldenrod !important; /* Ensure visibility */
+    border: 1px solid goldenrod !important;
+    padding: 1px 1px; /* Adjust padding for better visibility */
+}
+
+.navbar-toggler-icon {
+    background-image: none !important; /* Remove default icon */
+    width: 30px;
+    height: 15px;
+    background-color: #0b2838 !important; /* Dark bar icon */
+    display: block;
+    position: relative;
+    justify-content: center;
+    background-color: goldenrod !important; /* Ensure visibility */
+    border: 1px solid goldenrod !important;
+    padding: 1px 1px; /* Adjust padding for better visibility */
+}
+
+.navbar-toggler-icon::before,
+.navbar-toggler-icon::after {
+    content: "";
+    width: 30px;
+    height: 3px;
+    background-color: #0b2838;
+    position: absolute;
+    left: 0;
+}
+
+.navbar-toggler-icon::before {
+    top: -10px;
+}
+
+.navbar-toggler-icon::after {
+    top: 10px;
+}
+[type=button]:not(:disabled), [type=reset]:not(:disabled), [type=submit]:not(:disabled), button:not(:disabled) {
+    cursor: pointer;
+}

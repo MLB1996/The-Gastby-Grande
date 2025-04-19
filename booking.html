@@ -1,0 +1,325 @@
+<!DOCTYPE html >
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>The Gatsby Grande | Booking |</title>
+<script src="https://kit.fontawesome.com/yourcode.js" crossorigin="anonymous"></script>
+<link rel="stylesheet" href="stylesheet.css">
+<link rel="stylesheet" href="booking-form.css">
+</head>
+<body>
+    <div class="container-fluid">
+<header>
+<nav id="navbar">
+<ul>
+    <li><a href="home.html" class="active" title="Home">Home</a></li>
+    <li class="dropdown">
+        <div class="dropbtn"><a href="about-us.html">About Us</a></div>
+        <div class="dropdown-content">
+            <a href="about-us.html#location">Location</a>
+            <a href="about-us.html#reviews">Reviews</a>
+        </div>
+    </li>
+    <li class="dropdown">
+        <div class="dropbtn"><a href="accommodation.html">Accommodation</a></div>
+        <div class="dropdown-content">
+            <a href="facilities.html">Facilities</a>
+        </div>
+    </li>
+    <li><img src="logo.png" width="100" alt="the-gatsby-grande" id="logo"></li>
+    <li><a href="blog-news.html">Blogs/News</a></li>
+    <li class="dropdown">
+        <div class="dropbtn">Booking</div>
+        <div class="dropdown-content">
+            <a href="booking.html">Book Now</a>
+            <a href="booking.html#policies">Policies</a>
+            <a href="#promotions-packages.html">Packages</a>
+        </div>
+    </li>
+    <li><a href="#contact-us.html">Contact</a></li>
+</ul>
+</nav>
+</header>
+<section id="policies">
+    <h1>Policies: Know Before You Go</h1>
+    <p>To ensure a seamless and enjoyable stay at The Gatsby Grande, we encourage all our guests to familiarize themselves with our policies regarding cancellation, check-in/check-out times, and accepted payment methods. </p>
+
+    <p><b>Cancellation Policy:</b> We understand that travel plans can change unexpectedly. To provide peace of mind, we offer flexible cancellation options. 
+                                                            Cancellations made up to 48 hours before your scheduled arrival will receive a full refund. For cancellations made within the 48-hour window, a one-night charge may apply. 
+                                                            We highly recommend reviewing specific rates at the time of booking, as some exclusive offers may have different terms.</p>
+
+        <p><b>Check-In and Check-Out Times: </b>Our standard check-in time is 3 PM, allowing us sufficient time to prepare your room with the care and mindfulness you deserve. 
+                    If you arrive earlier, we encourage you to enjoy our lounge and take advantage of our complimentary welcome beverages while you await your room. 
+            Our check-out time is at 11 AM; however, we offer flexible check-out options upon request to accommodate your travel needs, subject to availability.</p>
+
+                <p><b>Accepted Payment Methods: </b>To ensure a hassle-free payment experience, we accept a variety of payment methods, including major credit cards (Visa, MasterCard, American Express), debit cards, and mobile payment options. 
+                For a smooth check-in process, please ensure that the payment method used for booking matches the name of the person checking in. Additionally, a valid photo ID will be required at check-in.</p>
+
+                    <p>By reviewing these policies before your stay, you can focus on enjoying the luxurious experience we offer at The Gatsby Grande, from our elegant accommodations to the exceptional service provided by our staff. 
+Should you have any questions or need assistance, please do not hesitate to contact our front desk team, who will be more than happy to assist you.</p>
+</section>
+<section id="booking.html">
+    <h1>Schedule Your Stay</h1>
+    <p>Ready to experience the allure of The Gatsby Grande? Book your stay today and indulge in the luxury and style that awaits you. Whether for business or leisure, we look forward to welcoming you to our enchanting oasis. </p>
+    <form action="/action_page.php" class="was-validated">
+        <div class="container">
+            <fieldset>
+            <legend>Personal Information</legend>
+                <div class="row">
+                    <div class="col-25">
+                <label for="first-name">First Name</label>
+            </div>
+            <div class="col-75">
+                <input class="form-control" type="text" id="first-name" name="first-name" placeholder="John">
+            </div>
+        </div>
+                <div class="row">
+                    <div class="col-25">
+                <label for="last-name">Last Name</label>
+            </div>
+            <div class="col-75">
+                <input class="form-control" type="text" id="last-name" name="last-name" placeholder="Smith">
+            </div>
+        </div>
+                <div class="row">
+                    <div class="col-25">
+                <label for="cell-number">Cell Number:</label>
+            </div>
+            <div class="col-75">
+                <input class="form-control" type="tel" id="cell-number" name="cell-number">
+            </div>
+        </div>
+                <div class="row">
+                    <div class="col-25">
+                <label for="email">Email:</label>
+            </div>
+            <div class="col-75">
+                <input class="form-control" type="email" id="email" name="email" placeholder="john.smith@gmail.com">
+            </div>
+        </div>
+        </fieldset>
+
+        <fieldset>
+            <legend>Room Information</legend>
+            <div class="row">
+                <div class="col-25">
+           <label for="suite">Choose a suite:</label>
+        </div>
+        <div class="col-75">
+            <select class="form-select" id="suite" name="suite" size="1" multiple>
+                <option value="the-gatsby-suite">The Gatsby Suite</option>
+                <option value="the-jazz-age-room">The Jazz Age Room</option>
+                <option value="bungalow-bliss">Bungalow Bliss</option>
+                <option value="art-deco-deluxe">Art Deco Deluxe</option>
+            </select>
+        </div>
+    </div>
+            <div class="row">
+                <div class="col-25">
+            <label for="package/special">Choose your package/special</label>
+        </div>
+        <div class="col-75">
+            <select class="form-select" id="package/special" name="package/special">
+                <option value="romantic-getaway">Romantic Getaway</option>
+                <option value="family-fun">Family Fun</option>
+                <option value="arts-and-culture">Arts and Culture</option>
+                <option value="weekend-escape">Weekend Escape</option>
+                <option value="group-retreat">Group Retreat</option>
+                <option value="none">none</option>
+            </select>
+        </div>
+    </div>
+            <div class="row">
+                <div class="col-90">
+            <label for="datemin">Check in</label>
+        </div>
+        <div class="col-75">
+            <input type="date" id="datemin" name="check-in" min="2025-01-04">
+        </div>
+    </div>
+            <div class="row">
+                <div class="col-25">
+            <label for="datemax">Check out:</label>
+        </div>
+        <div class="col-75">
+            <input type="date" id="datemax" name="checkout" max="2099-02-04">
+        </fieldset>
+
+        <fieldset>
+            <legend>Number of Guests</legend>
+            <div class="row">
+                <div class="col-xs-5">
+            <label for="no.-of-adults">Number of Adults (between 1 and 5)</label>
+        </div>
+        <div class="col-xs-10">
+            <input type="number" id="no.-of-adults" name="no.-of-adults" min="1" max="5">
+        </div>
+    </div>
+            <div class="row">
+                <div class="col-xs-10">
+            <label for="no.-of-kids">Number of Children</label>
+        </div>
+        <div class="col-sx-5">
+            <input type="number" id="no.-of-kids" name="no.-of-kids" min="0" max="5">
+        </div>
+        </div>
+        </fieldset>
+
+        <fieldset>
+                <legend>Payment Information:</legend>          
+                <label for="payment-methods-accepted">Payment Methods Accepted:</label>
+                <div>
+                    <div class="row">
+                        <div class="col-25">
+                <label for="credit-card">Credit Card</label>
+                </div>
+                <div class="col-75"><input type="radio" id="credit-card" name="payment-method" title="Credit Card"><i class="fa fa-cc-credit-card"></i>
+                </div>
+            </div>
+                <div class="row">
+                    <div class="col-25">
+                <label for="debit-card"> Debit Card</label>
+            </div>
+            <div class="col-75"><input type="radio" id="debit-card" name="payment-method" title="Debit Card"><i class="fa fa-cc-debit-card"></i>
+            </div>
+        </div>
+                <div class="row">
+                    <div class="col-25">
+                <label for="eft"> EFT</label>
+            </div>
+            <div class="col-75"><input type="radio" id="eft" name="payment-method" title="EFT"><i class="fa fa-cc-eft"></i>
+            </div>
+        </div>
+                </div>
+                <div class="row">
+                    <div class="col-25">
+                <label for="name-on-card">Name on card:</label>
+            </div>
+            <div class="col-75">
+                <input class="form-control" type="text" id="name-on-card" name="name-on-card" required>
+            </div>
+        </div>
+                <div class="row">
+                    <div class="col-25">
+                 <label for="no.-on-card">Number on card:</label>
+                </div>
+                <div class="col-75">
+                <input class="form-control" type="text" id="no.-on-card" name="no.-on.card" required>
+            </div>
+        </div>
+                <div class="row">
+                    <div class="col-25">
+                <label for="exp-year">Expire Year:</label>
+            </div>
+            <div class="col-75">
+                <input class="form-control" type="text" id="exp-year" name="exp-year" required>
+            </div>
+        </div>
+                <div class="row">
+                    <div class="col-25">
+                <label for="exp-month">Expire Month:</label>
+            </div>
+            <div class="col-75">
+                <input class="form-control" type="text" id="exp-month" name="exp-month" required>
+            </div>
+        </div>
+                <div class="row">
+                    <div class="col-25">
+                <label for="cvv">CVV number:</label>
+            </div>
+            <div class="col-75">
+                <input class="form-control" type="text" id="cvv" name="cvv" size="3" required>
+            </div>
+        </div>
+            </fieldset>
+
+            <fieldset>
+                <legend>Billing Information</legend>
+                <div class="row">
+                    <div class="col-25">
+                <label for="name">Name:</label>
+            </div>
+            <div class="col-75">
+                <input class="form-control" type="text" id="name" name="name" placeholder="John">
+            </div>
+        </div>
+                <div class="row">
+                    <div class="col-25">
+                <label for="surname">Surname:</label>
+            </div>
+            <div class="col-75">
+                <input class="form-control" type="text" id="surname" name="surname" placeholder="Smith">
+            </div>
+        </div>
+                <div class="row">
+                    <div class="col-25">
+                <label for="address">Address:</label>
+            </div>
+            <div class="col-75">
+                <input class="form-control" type="text" id="address" name="address">
+            </div>
+        </div>
+                <div class="row">
+                    <div class="col-25">
+                <label for="suburb">Suburb:</label>
+            </div>
+            <div class="col-75">
+                <input class="form-control" type="text" id="suburb" name="suburb">
+            </div>
+        </div>
+                <div class="row">
+                    <div class="col-25">
+                <label for="postal-code">Postal Code</label>
+            </div>
+            <div class="col-75">
+                <input class="form-control" type="text" id="postal-code" name="postal-code">
+            </div>
+        </div>
+                <div class="row">
+                    <div class="col-25">
+                <label for="country">Country</label>
+            </div>
+            <div class="col-75">
+                <input class="form-control" type="text" id="country" name="country" placeholder="South Africa">
+            </div>
+        </div>
+            </fieldset>
+
+        <fieldset>
+            <div class="row">
+                <div class="col-50">
+            <label for="terms-and-conditions"> I agree to the terms and conditions</label>
+        </div>
+        <div class="col-90"><input type="checkbox" name="terms-and-conditions" id="terms-and-conditions" required>
+        </div>
+    </div>
+            <div class="row">
+                <div class="col-50">
+            <label for="marketing">I agree to receive news and offers on the latest offers</label>
+        </div>
+        <div class="col-90"><input type="checkbox" name="marketing" id="marketing" title="Marketing">
+        </div>
+    </div>
+        </fieldset>
+
+        <fieldset>
+            <label for="submit"><input type="submit" name="book-now" id="submit" class="btn btn-primary btn-block" value="Book Now"></label>
+        </fieldset>
+        </div>          
+    </form>
+</section>
+<section id="contact-us.html">
+    <footer>
+    <h2>Contact Information</h2>
+    <p>Address:</p> <address>123 Art Deco Way  New York, NY 10001</address>
+    <div id="contact-information">
+    <p>Phone:  (123) 456-7890</p>
+    <p>Email:  info@gatsbygrande.com</p>
+    <p>Website: www.gatsbygrande.com</p>
+    </div>
+    </footer>
+    </section>
+    </div>
+    </body>
+    </html>

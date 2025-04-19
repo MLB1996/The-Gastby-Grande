@@ -1,0 +1,7 @@
+#package-container{display:grid;
+grid-template-columns: 1fr 1fr 1fr;
+grid-gap: 5px;
+box-sizing: border-box;
+}
+.package-item{border:1px solid black;
+}
